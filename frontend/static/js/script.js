@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Agregar evento al botón de cierre del modal
     document.querySelector('.btn-secondary').addEventListener('click', function() {
         myModal.hide();
-        window.location.href = 'Productos.html';
+        window.location.href = '../templates/Productos.html';
     });
 
 });

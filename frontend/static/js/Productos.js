@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', function () {
         const stock = document.getElementById('stock-producto').value;
         const categoria = document.getElementById('categoria-producto').value;
         
-        console.log('entra')
 
         // Validar campos del formulario
         if (nombre && descripcion && precio && stock && categoria) {
