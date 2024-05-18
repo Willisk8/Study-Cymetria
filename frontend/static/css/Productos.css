@@ -1,0 +1,92 @@
+/* Estilos para la página de productos */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilos para la tabla de productos */
+#tabla-productos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#tabla-productos th,
+#tabla-productos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tabla-productos th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+#tabla-productos tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tabla-productos tr:hover {
+    background-color: #ddd;
+}
+
+/* Estilos para el filtro de categoría */
+#categoria {
+    margin-bottom: 10px;
+}
+
+/* Estilos para el botón de insertar nuevo producto */
+#btn-nuevo-producto {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: auto; /* Mueve el botón al lado derecho */
+    white-space: nowrap;
+}
+
+#btn-nuevo-producto:hover {
+    background-color: #45a049;
+}
+
+
+#categoria {
+    width: auto; /* Ajusta esto si necesitas un tamaño específico */
+}
+
+.modal-content {
+    padding-left: 20px; /* Ajusta el valor según tus necesidades */
+    padding-right: 20px; /* Ajusta el valor según tus necesidades */
+}
